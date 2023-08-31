@@ -1,0 +1,150 @@
+
+html {
+  font-size: 62.5%;
+}
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+.header {
+ display: flex;
+ flex-direction: column;
+  gap: 30px;
+  height: 120px;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.header-detals {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.userinputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+a {
+  color: #ffff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.search {
+  height: 30px;
+  width: 60%;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  touch-action: manipulation; /* For touch devices */
+    user-select: none; /* Prevents text selection highlighting */
+}
+.input-bar {
+  text-align: center;
+  padding: 50px;
+  height: 15vh;
+  margin-bottom: 50px;
+  
+}
+
+.search1 {
+  height: 16px;
+  height: 16px;
+  margin-bottom: 20px ;
+  stroke: gray;
+  position: absolute;
+  top: 50%; transform: translateY(-50%); 
+   right: 290px;
+
+
+}
+
+
+.people{
+  text-align: center;
+  background-color: gray;
+  color: #ffff;
+  letter-spacing: 1.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin: auto;
+  width: 60vh;
+  padding: 6px;
+}
+ 
+.main {
+  margin-top: 200px;
+  width: 100%;
+  height: 50vh;
+  background-color: #0a0a0a;
+  color: #ffff; 
+  text-align: center;
+}
+
+.total {
+  margin: 30px;
+ font-size: 20px;
+ position: relative;
+ cursor: pointer;
+ 
+}
+
+.home {
+  margin-right: auto;
+}
+
+.modal {
+
+
+  position: absolute;
+  right: 10px;
+  height: 50vh;
+  width: 50vh;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #0a0a0a;
+}
+
+.close-modal {
+  width: 40px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.detals-ofpeople {
+  height: 20vh;
+  margin: auto;
+  width: 70vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.showProduct {
+  text-align: center;
+}
+
+.showparent {
+  width: 100%;
+ 
+}
+
+.inputsparent {
+  display: grid;
+  grid-template-rows: 2fr ;
+
+}
