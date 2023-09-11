@@ -6,16 +6,18 @@ html {
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
  display: flex;
  flex-direction: column;
+
   gap: 30px;
   height: 120px;
   width: 100%;
-  background-color: #0a0a0a;
-  color: #fff;
+ border: 1px solid #f1f3f5; 
+
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -23,6 +25,7 @@ html {
   display: flex;
   align-items: center;
   height: 40px;
+  border-bottom: 1px solid #f1f3f5;
 }
 .userinputDiv {
   display: flex;
@@ -31,10 +34,15 @@ html {
   position: relative;
 }
 
-a {
-  color: #ffff;
+.home {
+
   padding: 20px;
   font-size: 20px;
+  font-weight: 600;
+  margin-right: auto;
+  text-decoration: none;
+  color: #0a0a0a;
+
 }
 
 .search {
@@ -44,8 +52,10 @@ a {
   border-radius: 10px;
   border: none;
   padding: 5px;
+
   touch-action: manipulation; /* For touch devices */
     user-select: none; /* Prevents text selection highlighting */
+  border: 1px solid #f1f3f5;
 }
 .input-bar {
   text-align: center;
@@ -62,7 +72,7 @@ a {
   stroke: gray;
   position: absolute;
   top: 50%; transform: translateY(-50%); 
-   right: 290px;
+   right: 310px;
 
 
 }
@@ -81,36 +91,37 @@ a {
 }
  
 .main {
-  margin-top: 200px;
+ 
   width: 100%;
   height: 50vh;
   background-color: #0a0a0a;
   color: #ffff; 
-  text-align: center;
+
 }
 
 .total {
-  margin: 30px;
+ 
  font-size: 20px;
+ width: 30px;
+ height: auto;
  position: relative;
  cursor: pointer;
- 
+
 }
 
-.home {
-  margin-right: auto;
-}
+
 
 .modal {
 
 
   position: absolute;
+  top: 120px;
   right: 10px;
-  height: 50vh;
+  height: 100vh;
   width: 50vh;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #0a0a0a;
+  border: 1px solid #f1f3f5;
 }
 
 .close-modal {
@@ -126,12 +137,18 @@ a {
   display: none;
 }
 
-.detals-ofpeople {
+.userutput  {
   height: 20vh;
   margin: auto;
   width: 70vh;
   background-color: black;
   padding: 20px;
+
+ 
+}
+
+.userutputDiv {
+ height: 300px;
 }
 
 .showProduct {
@@ -148,3 +165,76 @@ a {
   grid-template-rows: 2fr ;
 
 }
+
+.imges {
+  width: 90px;
+  height: auto;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.productParent {
+
+  height: 250px;
+  width: 120px;
+  background-color: #fff;
+
+  color: #0a0a0a;
+}
+
+.product-detals {
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+.product-detals li {
+ margin-bottom: 10px;
+}
+
+.productAction {
+  width: 100%;
+}
+
+.totalParent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 50px;
+
+}
+
+.prdouctGridDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.iologo {
+  margin: auto;
+  width: 50px;
+  height: auto;
+}
+
+.logoDiv {
+  margin: auto;
+  width: 26%;
+  
+}
+
+.ProductsParent {
+  list-style: none;
+}
+
+.ProductsParent {
+  background-color: green;
+  display: flex;
+}
+
+.liprductparent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
